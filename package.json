@@ -1,0 +1,14 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "Building a Website with Node & ExpressJS",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node app/app.js"
+  },
+  "author": "elationbase",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
