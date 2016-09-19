@@ -4,11 +4,15 @@
   "description": "Building a Website with Node & ExpressJS",
   "main": "app/app.js",
   "scripts": {
-    "start": "node app/app.js"
+    "start": "nodemon --watch app"
   },
   "author": "elationbase",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "reload": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
   }
 }
